@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             for(int i=0;i<arr.length();i++){
                 JSONObject obj = arr.getJSONObject(i);
 
-                fils.add(obj.getString("code") + " : " + obj.getString("nom") + " - " + obj.getString("duree"));
+                fils.add(obj.getString("code") + " : " + obj.getString("nom") + " - " + obj.getInt("duree"));
             }
 
             ArrayAdapter ad = new ArrayAdapter(this, android.R.layout.simple_list_item_1,fils);
