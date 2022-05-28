@@ -1,0 +1,24 @@
+[
+    {
+        "code":"TDI",
+        "nom":"Techniques de developpement informatique",
+        "duree":2
+    },
+    {
+            "code":"TRI",
+            "nom":"Techniques des reseaux informatique",
+            "duree":2
+        },
+
+        {
+                "code":"INFO",
+                "nom":"Inforgraphie",
+                "duree":2
+            },
+
+                     {
+                             "code":"BCMOS",
+                             "nom":"Bureautique",
+                             "duree":0.5
+                         }
+]
